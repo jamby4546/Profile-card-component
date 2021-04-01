@@ -1,2 +1,2 @@
 # profile-card-component
-rough attempt at profile care component challenge
+rough attempt at profile card component challenge
