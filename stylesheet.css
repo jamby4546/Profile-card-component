@@ -1,0 +1,70 @@
+.card {
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+
+.victor  {
+  border-radius: 50%;
+  width:33.3%;
+  position: absolute;
+  top: 25%;
+  left: 33.3%;
+  border: solid 5px white;
+}
+
+.card-body {
+  position: relative;
+  padding-top: 25%;
+}
+
+.heavy {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+.numbers {
+  display: flex;
+  flex-direction: row;
+  border-top: 0;
+}
+
+
+.stats {
+  width: 33.3%;
+  word-wrap: normal;
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+
+li {
+  border-right: solid 2px black;
+  text-align: center;
+}
+
+.child {
+  border-right: 0;
+}
+
+
+.card-body {
+  text-align: center;
+}
+
+/* background test */
+
+body {
+  background-color: #00b6c7;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(images/bg-pattern-top.svg);
+  background-image: url(images/bg-pattern-bottom.svg);
+  background-size: 65%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+  font-size: 18px;
+}
